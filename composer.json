@@ -1,0 +1,23 @@
+{
+  "name": "shop/nixshop",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "samoi",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "friendsofphp/php-cs-fixer": "^3.1",
+    "squizlabs/php_codesniffer": "^3.6",
+    "monolog/monolog": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\" : "framework",
+      "App\\" : "app"
+    }
+  }
+}
